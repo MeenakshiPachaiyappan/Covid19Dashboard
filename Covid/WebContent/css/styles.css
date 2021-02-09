@@ -1,0 +1,257 @@
+
+body, html{
+    height: 100%;
+}
+body{
+    border-style: none!important;
+    width: 100%;
+    overflow-x:hidden;
+}
+
+.signin {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin:0;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    position: absolute;
+    padding-top: 10%;
+    padding-bottom:10%;
+    background-color:#F6F6F6;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 300px;
+    padding: 15px;
+    margin: auto;
+}
+.form-signin .checkbox {
+    font-weight: 400;
+}
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 15px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.container-fluid {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+.navbar {
+    padding: 0 0 1.5rem;
+    margin: 0;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.nav-item {
+    padding: 0 14px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+.banner-round{
+    margin-bottom: 30px;
+}
+.news{
+    background-color: #112D4E;
+    padding-top: 20px;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 80vh;
+}
+.footer-padding {
+    padding-bottom: 0;
+}
+
+.footer {
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: #112D4E;
+
+}
+.developer{
+    padding-top: 5%;
+    padding-left: 5%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 80vh;
+}
+.developer p{
+    font-size: 0.5rem;
+}
+.developer h3{
+    margin-top: 5px;
+}
+.social-icon{
+    margin: 20px 10px;
+}
+.social-icon :hover {
+    color: rgb(88, 79, 79)
+}
+.footer h3{
+    color: #ffff;
+    font-weight:300;
+}
+
+.footer p {
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(88, 79, 79);
+}
+.big-heading {
+    padding: 0;
+    font-family: "Montserrat-Black";
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 1;
+}
+p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.covid-image{
+    height:400px;
+    width:300px;
+    margin: 0 25%;
+}
+.colored-section {
+    background-color: #112D4E;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+#symptoms {
+    font-weight: 500;
+}
+
+.symptom-title {
+    font-size: 1.5rem;
+    line-height: 1;
+}
+.content{
+    padding-top: 20px;
+}
+
+.symptoms-box {
+    padding: 4.5%;
+}
+
+#precautions {
+    background-color: #112D4E;
+    padding:4.5%;
+}
+
+.precaution-text {
+    font-size: 1.5rem;
+    line-height: 1;
+    font-weight: 500;
+}
+
+.precaution-image {
+    margin-top:10px;
+    width : 120px;
+    border-radius: 100%;
+}
+.verifycontent{
+    background-color: #F6F6F6;
+    text-align: center;
+    font-family: "sans-serif"
+}
+.register {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin:0;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    position: absolute;
+}
+
+.form-register {
+    width: 100%;
+    max-width: 300px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-register .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 15px;
+}
+.form-register .form-control:focus {
+    z-index: 2;
+}
+.form-regsiter input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-register input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-register input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.topnav{
+    min-height: 80vh;
+    align-items: center;
+    background-color: #112D4E;
+    font-color: #ffff;
+}
+
+
+
+
+
+
